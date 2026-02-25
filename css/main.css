@@ -354,8 +354,9 @@ footer p {
     width: auto;
   }
 
-  #header-nav li:nth-child(2) {
-    margin-left: 1rem;
+  #header-nav li:not(:last-child) {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   #header-nav a {
