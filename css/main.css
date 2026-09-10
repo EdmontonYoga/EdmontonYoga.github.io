@@ -200,6 +200,10 @@ article a:hover,article a:focus,article a:active,section a:hover,section a:focus
   background-color: var(--light-color);
 }
 
+#mission {
+  background-color: #50aa00;
+}
+
 #mission > *, #location-and-time > *, #children > * {
   max-width: 78rem;
   padding-right: 1rem;
