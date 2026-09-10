@@ -184,47 +184,49 @@ article a:hover,article a:focus,article a:active,section a:hover,section a:focus
 
 #info { padding-bottom: 3rem;  }
 
-#info h3 {
+#info h3,
+#children h3 {
   font-size: 2rem;
   margin: 3rem 1rem 1rem;
 }
 
-#info p {
+#info p,
+#children h3 {
   line-height: 1.5;
   margin: 0 1rem 1rem;
 }
 
-#mission, #location-and-time {
+#mission, #location-and-time, #children {
   background-color: var(--light-color);
 }
 
-#mission > *, #location-and-time > * {
+#mission > *, #location-and-time > *, #children > * {
   max-width: 78rem;
   padding-right: 1rem;
   padding-left: 1rem;
 }
 
-#mission h2, #location-and-time h2 {
+#mission h2, #location-and-time h2, #children h2 {
   font-size: 2rem;
   margin: 3rem auto 1rem;
   padding: 3rem 1rem 1rem;
 }
 
-#mission h2 {
+#mission h2, #children h2 {
   margin-top: 0;
 }
 
-#location-and-time h2 {
+#location-and-time h2, #children h2 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-#mission p, #location-and-time p {
+#mission p, #location-and-time p, #children p {
   line-height: 1.5;
   margin: 0 auto 1rem;
 }
 
-#mission > *:last-child, #location-and-time > *:last-child {
+#mission > *:last-child, #location-and-time > *:last-child, #children > *:last-child{
   padding-bottom: 3rem;
   margin-bottom: 0;
 }
@@ -254,17 +256,38 @@ article a:hover,article a:focus,article a:active,section a:hover,section a:focus
 }
 
 #what-should-i-bring ul,
-#location-and-time ul {
+#location-and-time ul,
+#children ul {
   padding-left: 2.5rem;
 }
 
-#location-and-time ul {
+#location-and-time ul,
+#children ul {
   margin-right: auto;
   margin-left: auto;
 }
 
 #what-should-i-bring li,
-#location-and-time li {
+#location-and-time li,
+#children li {
+  list-style: circle;
+}
+
+#children article {
+  margin-top: 1rem;
+}
+
+#children h3 {
+  font-size: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#children li {
+  list-style: disc;
+}
+
+#children li li {
   list-style: circle;
 }
 
